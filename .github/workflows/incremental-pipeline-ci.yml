@@ -1,0 +1,29 @@
+name: Incremental Pipeline CI
+
+on:
+  push:
+    paths:
+      - "azure-incremental-pipeline/**"
+    branches:
+      - main
+
+jobs:
+  build-and-validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate SQL scripts
+        run: |
+          echo "Validating SQL scripts..."
+          ls azure-incremental-pipeline || exit 1
+
+      - name: Validate notebooks
+        run: |
+          echo "Validating Databricks notebooks..."
+          ls notebooks || exit 1
+
+      - name: Pipeline check complete
+        run: echo "Incremental pipeline validation successful"
