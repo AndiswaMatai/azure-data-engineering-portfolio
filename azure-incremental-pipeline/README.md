@@ -56,3 +56,69 @@ This project demonstrates an **incremental + streaming data pipeline** using Azu
 
 ```text
 WHERE LastUpdated > @Watermark
+Watermark stored in control table
+
+Late-arriving data handled via reprocessing window
+
+Idempotent writes using Delta Lake MERGE
+
+---
+📊 Reporting Use Cases
+
+Live operational dashboards
+
+SLA breach monitoring
+
+Volume and latency tracking
+
+Trend analysis by time windows
+
+---
+🎯 Business Outcomes
+
+Reduced processing costs
+
+Near-real-time visibility
+
+Scalable ingestion architecture
+
+Audit-ready, governed datasets
+
+---
+
+
+---
+
+## ✅ STEP 2.2.3 — Commit the changes
+
+1. Scroll down
+2. Commit message:
+
+---
+3. Click **Commit changes**
+
+## 🌐 VERIFY IT’S LIVE
+
+Open this link in a new tab:
+
+---
+
+https://andiswamatai.github.io/azure-data-engineering-portfolio/azure-incremental-pipeline/
+
+
+You should see the page rendered 🎉
+
+---
+
+## 🥉 NEXT STEP (Very important)
+
+Next we will:
+### 🥉 STEP 2.3 — Add Images + Mock Streaming Scripts
+- Architecture diagram
+- Databricks streaming notebook
+- ADF watermark example
+- Power BI real-time dashboard mock
+
+This is what **pushes you into senior / lead level**.
+
+👉 Say **“Step 2.2 done”** and we continue.
