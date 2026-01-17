@@ -23,21 +23,24 @@ The existing batch processing approach had several limitations:
 An incremental Azure data pipeline was designed to ingest and process data efficiently
 using **watermarking and idempotent logic**.
 
-### Architecture Components
-- **Azure Data Factory (ADF)**  
-  Implemented watermark-based incremental ingestion
+---
 
-- **Azure Data Lake Storage (ADLS)**  
-  Stored raw incremental data and curated datasets
+## Architecture Diagram
 
-- **Azure Databricks**  
-  Applied deduplication, transformation, and enrichment logic
+![Incremental Pipeline Azure Architecture](../images/incremental_pipeline/architecture.png)
 
-- **Azure Synapse Analytics**  
-  Served as the analytics layer for incremental data
+---
 
-- **Power BI**  
-  Delivered near real-time operational dashboards
+## Data Ingestion & Transformation
+
+![ADF Incremental Pipeline](../images/incremental_pipeline/adf_pipeline.png)
+
+---
+
+## Analytics & Reporting
+
+![Power BI Incremental Dashboard](../images/incremental_pipeline/powerbi_dashboard.png)
+
 
 ---
 
