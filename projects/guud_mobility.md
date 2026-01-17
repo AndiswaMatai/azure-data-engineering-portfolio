@@ -92,3 +92,23 @@ This project demonstrates:
 - Modern cloud migration from on-premise systems
 - Automated, analytics-ready data pipelines
 - Business-driven data architecture aligned to executive KPIs
+
+---
+
+## Architecture Diagram
+
+![GUUD Mobility Azure Architecture](../images/guud_mobility/architecture.png)
+
+---
+
+## Data Ingestion & Transformation
+
+![ADF Pipeline](../images/guud_mobility/adf_pipeline.png)
+
+---
+
+## Analytics & Reporting
+
+![Power BI Dashboard](../images/guud_mobility/powerbi_dashboard.png)
+
+
