@@ -1,0 +1,1 @@
+# Azure Incremental Data Pipeline
