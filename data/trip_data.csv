@@ -1,0 +1,4 @@
+TripID,VehicleID,Route,StartTime,EndTime,DistanceKM,Fare,Region
+T001,V001,A,2026-01-01 08:00,2026-01-01 08:30,12,150,Western Cape
+T002,V002,B,2026-01-01 09:00,2026-01-01 09:45,20,250,Western Cape
+T003,V001,A,2026-01-01 10:00,2026-01-01 10:25,10,120,Western Cape
