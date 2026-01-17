@@ -54,6 +54,13 @@ Incremental & near real-time pipeline showcasing **CI/CD**, event-driven ingesti
 [Incremental & Streaming Pipeline](projects/azure_incremental_streaming.md)
 
 ---
+### 3 GUUD Mobility — Azure Data Engineering
+End-to-end Azure data platform modernizing fleet, route, and revenue analytics.
+
+➡️ **View Case Study**  
+[GUUD Mobility Azure Case Study](projects/guud_mobility_azure_case_study.md)
+
+---
 
 ## 📂 Documentation
 - [Monitoring & Governance Overview](docs/Monitoring_Governance_Overview.docx)
