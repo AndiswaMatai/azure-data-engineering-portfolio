@@ -52,7 +52,7 @@ Welcome! This portfolio showcases **end-to-end Azure data engineering projects**
 - **Problem:** Full dataset reloads delayed analytics and increased compute costs.  
 - **Solution:** Incremental ingestion with ADF, deduplication in Databricks, Synapse for analytics, Power BI dashboards.  
 - **Impact:** Pipeline execution 70% faster; infrastructure costs reduced; near real-time insights enabled.  
-[View Case Study](projects/azure_incremental_data_pipeline_case_study.md)
+[View Case Study](projects/azure_incremental_data_pipeline.md)
 
 ---
 
