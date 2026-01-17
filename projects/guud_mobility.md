@@ -40,19 +40,17 @@ data ingestion, transformation, storage, and analytics.
 
 ---
 
-## Data Pipeline Flow
+## Architecture Diagram
 
-SQL Server (On-Prem)
-↓
-Azure Data Factory
-↓
-ADLS (Raw → Clean)
-↓
-Azure Databricks
-↓
-Synapse Analytics
-↓
-Power BI Dashboards
+![GUUD Mobility Azure Architecture](../images/guud_mobility/architecture.png)
+
+**Description:**  
+- **Source Systems:** On-prem SQL Server databases for fleet and financial data  
+- **ADF Pipelines:** Orchestrates extraction and landing into ADLS  
+- **ADLS (Raw → Clean):** Raw data is stored and then cleaned/transformed  
+- **Databricks:** Applies transformation, standardization, and business logic  
+- **Synapse Analytics:** Analytics-ready datasets for reporting  
+- **Power BI:** Interactive dashboards for operational and executive users
 
 ---
 
