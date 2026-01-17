@@ -44,21 +44,17 @@ and analytics delivery from SQL Server to Power BI.
 
 ---
 
-## Data Pipeline Flow
-SQL Server
-↓
-Azure Data Factory
-↓
-ADLS (Raw → Clean)
-↓
-Azure Databricks
-↓
-Synapse Analytics
-↓
-Power BI
+## Architecture Diagram
 
----
+![SQL Server to Power BI Azure Architecture](../images/sql_server_to_powerbi/architecture.png)
 
+**Description:**  
+- **SQL Server:** On-premise operational data  
+- **ADF:** Ingests data into Azure Data Lake Storage  
+- **ADLS:** Raw and clean zones for staging and curated data  
+- **Databricks:** Cleanses, transforms, and enriches data  
+- **Synapse Analytics:** Analytics-ready datasets for Power BI  
+- **Power BI:** Self-service and executive dashboards
 
 ---
 
