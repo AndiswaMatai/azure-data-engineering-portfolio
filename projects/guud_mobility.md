@@ -22,21 +22,21 @@ The business faced several data challenges:
 An **end-to-end Azure data engineering platform** was designed and implemented to modernize
 data ingestion, transformation, storage, and analytics.
 
-### Architecture Components
-- **Azure Data Factory (ADF)**  
-  Ingested raw on-prem SQL Server data into Azure Data Lake Storage (ADLS)
+## Architecture Diagram
 
-- **Azure Databricks**  
-  Cleaned, standardized, and transformed raw datasets into analytics-ready structures
+![GUUD Mobility Azure Architecture](../images/guud_mobility/architecture.png)
 
-- **Azure Synapse Analytics**  
-  Stored curated datasets and provided optimized analytical models
+---
 
-- **Power BI**  
-  Delivered interactive dashboards for operational and executive stakeholders
+## Data Ingestion & Transformation
 
-- **Azure AD & Key Vault**  
-  Enabled enterprise-grade security, access control, and secrets management
+![ADF Pipeline](../images/guud_mobility/adf_pipeline.png)
+
+---
+
+## Analytics & Reporting
+
+![Power BI Dashboard](../images/guud_mobility/powerbi_dashboard.png)
 
 ---
 
@@ -92,24 +92,6 @@ This project demonstrates:
 - Modern cloud migration from on-premise systems
 - Automated, analytics-ready data pipelines
 - Business-driven data architecture aligned to executive KPIs
-
----
-
-## Architecture Diagram
-
-![GUUD Mobility Azure Architecture](../images/guud_mobility/architecture.png)
-
----
-
-## Data Ingestion & Transformation
-
-![ADF Pipeline](../images/guud_mobility/adf_pipeline.png)
-
----
-
-## Analytics & Reporting
-
-![Power BI Dashboard](../images/guud_mobility/powerbi_dashboard.png)
 
 ---
 
