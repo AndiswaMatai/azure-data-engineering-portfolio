@@ -11,7 +11,7 @@
 ## 👋 About Me
 I am a **Senior Data Engineer** with 9+ years of experience building **enterprise-scale, cloud-native data platforms** across banking, capital markets, telecom, and retail.
 
-# 🌐 Azure Data Engineering Portfolio
+---
 
 Welcome! This portfolio showcases **end-to-end Azure data engineering projects**, highlighting architecture, automation, analytics, and business impact. Each project includes:
 
