@@ -1,25 +1,43 @@
 # 🏎️ GUUD Mobility — Azure Data Engineering Case Study
 
-**Context:**  
-GUUD Mobility provides urban mobility services with fleet and operational data stored in SQL Server on-premise.  
+## Business Context
+**GUUD Mobility** provides urban mobility services, managing fleet operations, routes, and revenue.
+Core operational and financial data was hosted **on-premise in SQL Server**, creating challenges
+for scalability, reporting speed, and executive visibility.
 
-**Problem Statement:**  
-- Fragmented operational and financial data delayed decision-making.  
-- Manual reporting cycles were slow, limiting actionable insights.  
-- Leadership lacked real-time KPIs on fleet, routes, and revenue.  
+---
 
-**Solution Implemented:**  
-- Built end-to-end **Azure data platform**:  
-  - **ADF** – ingest raw SQL Server data into ADLS  
-  - **Databricks** – clean and transform data  
-  - **Synapse Analytics** – store and model clean datasets  
-  - **Power BI** – interactive dashboards  
-  - **AAD & Key Vault** – governance, security, and monitoring  
-- Automated ETL pipelines and scheduled refreshes to eliminate manual reporting  
+## Problem Statement
+The business faced several data challenges:
 
-**Business Impact:**  
-- Reduced reporting time from 2–3 days → under 2 hours  
-- Improved fleet utilization by 12% through route optimization  
-- Provided near real-time dashboards for executive decision-making  
+- Fragmented operational and financial datasets
+- Manual reporting cycles taking multiple days
+- Limited visibility into real-time fleet performance
+- Delayed decision-making for route and utilization optimization
+- Lack of executive-level KPIs across fleet, routes, and revenue
 
-**Tech Stack:** Azure Data Factory, Databricks, Synapse Analytics, ADLS, Python, SQL, Power BI
+---
+
+## Solution Overview
+An **end-to-end Azure data engineering platform** was designed and implemented to modernize
+data ingestion, transformation, storage, and analytics.
+
+### Architecture Components
+- **Azure Data Factory (ADF)**  
+  Ingested raw on-prem SQL Server data into Azure Data Lake Storage (ADLS)
+
+- **Azure Databricks**  
+  Cleaned, standardized, and transformed raw datasets into analytics-ready structures
+
+- **Azure Synapse Analytics**  
+  Stored curated datasets and provided optimized analytical models
+
+- **Power BI**  
+  Delivered interactive dashboards for operational and executive stakeholders
+
+- **Azure AD & Key Vault**  
+  Enabled enterprise-grade security, access control, and secrets management
+
+---
+
+## Data Pipeline Flow
