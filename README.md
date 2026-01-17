@@ -68,7 +68,12 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 ---
 
 ## 📂 Downloadable Docs
-- [Monitoring & Governance PDF](docs/Monitoring_Governance.pdf)  
+- [Monitoring & Governance PDF](docs/Monitoring_Governance.pdf)
+- ![ADF Pipeline](images/adf_pipeline.png)
+- ![Databricks Transformation](images/databricks_transformation.png)
+- ![Synapse Model](images/synapse_model.png)
+- ![Power BI Dashboard](images/powerbi_dashboard.png)
+
 
 ---
 
