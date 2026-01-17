@@ -9,33 +9,45 @@
 ---
 
 ## 👋 About Me
-I am a **Senior Data Engineer** with 9+ years of experience building **enterprise-scale, cloud-native data platforms**.  
-I specialize in **designing, optimizing, and automating ETL pipelines, data lakes, reconciliations, and dashboards** for banking, finance, telecom, and retail industries.  
+I am a **Senior Data Engineer** with 9+ years of experience delivering **enterprise-scale, cloud-native data platforms**.  
+I specialize in **designing, optimizing, and automating ETL pipelines, data lakes, reconciliations, and executive dashboards** across banking, finance, telecom, and mobility-driven businesses.
 
-Explore my work and portfolio on [GitHub Pages](https://andiswamatai.github.io/azure-data-engineering-portfolio/).
+🔗 Live Portfolio:  
+👉 https://andiswamatai.github.io/azure-data-engineering-portfolio/
 
 ---
 
-## 📌 Project Overview
-End-to-end **Azure-based data engineering solution** for ingesting, transforming, and visualizing data from on-premise SQL Server.
+## 📌 Business Scenario
+This project simulates a **real-world operational analytics platform** similar to what is required in **mobility, logistics, and financial operations** environments.
+
+The platform enables:
+- Centralised ingestion of operational data from on-premise systems  
+- Scalable cloud-based transformations  
+- Secure, analytics-ready datasets  
+- Executive dashboards for **performance, revenue, and operational KPIs**
+
+---
+
+## 🧩 Project Overview
+End-to-end **Azure-based data engineering solution** for ingesting, transforming, and visualizing data from an on-premise SQL Server source.
 
 ### Key Components
 1. **Azure Data Factory (ADF)** – ingest raw data from SQL Server  
 2. **Azure Data Lake (ADLS)** – store raw data  
 3. **Azure Databricks** – clean and transform data  
-4. **Azure Synapse Analytics** – load clean datasets for analytics  
+4. **Azure Synapse Analytics** – analytics & serving layer  
 5. **Power BI** – interactive dashboards  
-6. **AAD & Key Vault** – monitoring, security, and governance  
+6. **Azure AD & Key Vault** – security, monitoring, governance  
 
 ---
 
 ## 🛠️ Technology Stack
 - **Azure**: Data Factory, Databricks, Synapse Analytics, ADLS, Key Vault, AAD  
-- **Python / PySpark** – transformations  
-- **SQL / T-SQL** – queries and data modeling  
-- **Power BI** – reporting dashboards  
-- **GitHub Actions** – CI/CD pipelines  
-- **Data governance & monitoring**  
+- **Python / PySpark** – data transformations  
+- **SQL / T-SQL** – modeling & analytics  
+- **Power BI** – dashboards & KPIs  
+- **GitHub Actions** – CI/CD  
+- **Data governance & monitoring**
 
 ---
 
@@ -43,46 +55,51 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 
 ### 1️⃣ Data Ingestion
 ![ADF Pipeline](images/adf_pipeline.png)  
-*Ingest raw data from on-premise SQL Server to Azure Data Lake using ADF pipelines.*
+*ADF pipelines ingest data from on-prem SQL Server into Azure Data Lake.*
 
 ### 2️⃣ Data Transformation
 ![Databricks Transformation](images/databricks_transformation.png)  
-*Transform raw data into clean, analytics-ready datasets using Databricks.*
+*Databricks cleans and standardizes raw data into analytics-ready datasets.*
 
 ### 3️⃣ Data Storage & Modeling
 ![Synapse Model](images/synapse_model.png)  
-*Load clean data into Synapse Analytics for reporting and analytics.*
+*Curated datasets loaded into Synapse Analytics for reporting.*
 
 ### 4️⃣ Dashboards
 ![Power BI Dashboard](images/powerbi_dashboard.png)  
-*Interactive dashboards powered by Synapse Analytics.*
+*Operational and executive dashboards built in Power BI.*
 
 ---
 
 ## 🎯 Business Outcomes
-- **Automated ETL pipelines** reducing manual effort  
-- **Clean, analytics-ready datasets**  
-- **Near real-time dashboards** for actionable insights  
-- **Secure, monitored data** with AAD & Key Vault  
+- Automated ETL pipelines reducing manual processing  
+- Clean, trusted datasets for analytics  
+- Near real-time operational dashboards  
+- Secure and governed cloud architecture  
+- Scalable design aligned to enterprise standards  
 
 ---
 
-## 📂 Downloadable Docs
-- [Monitoring & Governance PDF](docs/Monitoring_Governance.pdf)
-- ![ADF Pipeline](images/adf_pipeline.png)
-- ![Databricks Transformation](images/databricks_transformation.png)
-- ![Synapse Model](images/synapse_model.png)
-- ![Power BI Dashboard](images/powerbi_dashboard.png)
-
+## 📂 Documentation
+- 📄 [Monitoring & Governance Overview](docs/Monitoring_Governance.pdf)
 
 ---
 
-## 🔗 Connect / Explore
-- [GitHub Portfolio](https://github.com/AndiswaMatai/azure-data-engineering-portfolio)  
-- [LinkedIn](https://www.linkedin.com/in/andiswamatai/)  
-- [Live Portfolio](https://andiswamatai.github.io/azure-data-engineering-portfolio/)  
+## 📁 Project Structure
+
+-azure-data-engineering-portfolio/
+│
+├── README.md
+├── images/
+├── docs/
+├── notebooks/
+├── scripts/
+└── data/
 
 ---
 
-## ⚡ Tech Keywords
-azure data-factory databricks synapse analytics adls python sql power-bi etl ci-cd cloud-data-engineering data-governance
+## 🔗 Connect
+- 💼 GitHub: https://github.com/AndiswaMatai  
+- 🔗 LinkedIn: https://www.linkedin.com/in/andiswamatai/  
+- 🌍 Live Portfolio: https://andiswamatai.github.io/azure-data-engineering-portfolio/
+
