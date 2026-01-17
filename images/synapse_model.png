@@ -1,0 +1,16 @@
++-----------------+
+| Clean Data (ADLS)|
++-----------------+
+        |
+        v
++---------------------+
+| Synapse Analytics   |
+|  Staging Table      |
+|  Fact & Dimension   |
+|  Tables             |
++---------------------+
+        |
+        v
++---------------------+
+| Analytics / Power BI|
++---------------------+
