@@ -1,0 +1,4 @@
++-----------------+       +-------------------+       +----------------+
+| On-Prem SQL     |  -->  | Azure Data Factory |  -->  | Azure Data Lake |
+| Server Database |       | Pipeline          |       | (Raw Layer)    |
++-----------------+       +-------------------+       +----------------+
