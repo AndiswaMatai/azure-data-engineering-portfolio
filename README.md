@@ -81,8 +81,7 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 ---
 
 ## 📂 Documentation
-- [Monitoring & Governance Overview](docs/Monitoring & Governance_Overview.docx)
-Monitoring & Governance Overview.docx
+- [Monitoring & Governance Overview](docs/Monitoring_Governance_Overview.docx)
 
 
 ---
