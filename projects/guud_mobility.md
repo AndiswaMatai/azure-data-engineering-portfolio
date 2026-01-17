@@ -41,3 +41,54 @@ data ingestion, transformation, storage, and analytics.
 ---
 
 ## Data Pipeline Flow
+
+SQL Server (On-Prem)
+↓
+Azure Data Factory
+↓
+ADLS (Raw → Clean)
+↓
+Azure Databricks
+↓
+Synapse Analytics
+↓
+Power BI Dashboards
+
+---
+
+## Automation & Governance
+- Fully automated ETL pipelines with scheduled refreshes
+- Elimination of manual reporting processes
+- Secure credential management via Azure Key Vault
+- Role-based access control through Azure AD
+- Monitoring and failure handling built into pipelines
+
+---
+
+## Business Impact
+The solution delivered measurable business outcomes:
+
+- ⏱ **Reporting time reduced** from **2–3 days → under 2 hours**
+- 🚗 **Fleet utilization improved by 12%** through better route optimization
+- 📊 Near real-time executive dashboards for faster decision-making
+- 📈 Improved data accuracy and consistency across departments
+
+---
+
+## Technology Stack
+- Azure Data Factory  
+- Azure Databricks  
+- Azure Synapse Analytics  
+- Azure Data Lake Storage (ADLS)  
+- Python  
+- SQL  
+- Power BI  
+
+---
+
+## Key Takeaways
+This project demonstrates:
+- Enterprise-scale Azure data engineering design
+- Modern cloud migration from on-premise systems
+- Automated, analytics-ready data pipelines
+- Business-driven data architecture aligned to executive KPIs
