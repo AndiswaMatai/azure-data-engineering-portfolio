@@ -25,21 +25,22 @@ The existing reporting approach presented several challenges:
 A modern Azure data platform was designed to automate ingestion, transformation,
 and analytics delivery from SQL Server to Power BI.
 
-### Architecture Components
-- **Azure Data Factory (ADF)**  
-  Extracted SQL Server data and landed it in Azure Data Lake Storage
+## Architecture Diagram
 
-- **Azure Data Lake Storage (ADLS)**  
-  Served as the raw and clean data zones
+![SQL Server to Power BI Azure Architecture](../images/sql_server_to_powerbi/architecture.png)
 
-- **Azure Databricks**  
-  Applied data cleansing, standardization, and transformation logic
+---
 
-- **Azure Synapse Analytics**  
-  Modeled curated datasets optimized for analytics
+## Data Ingestion & Transformation
 
-- **Power BI**  
-  Delivered self-service and executive dashboards
+![ADF Pipeline](../images/sql_server_to_powerbi/adf_pipeline.png)
+
+---
+
+## Analytics & Reporting
+
+![Power BI Dashboard](../images/sql_server_to_powerbi/powerbi_dashboard.png)
+
 
 ---
 
