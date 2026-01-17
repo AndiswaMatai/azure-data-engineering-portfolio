@@ -105,6 +105,21 @@ Watermark-based ingestion and near real-time analytics.
 
 ---
 
+## 📊 Near Real-Time Power BI Dashboard
+
+![Power BI Streaming Dashboard](../images/powerbi_dashboard.png)
+
+### Key Metrics
+- Events per minute
+- Processing latency
+- SLA breach alerts
+- Trend analysis by time window
+
+Power BI connects to Synapse Analytics and streaming datasets to provide
+near-real-time operational visibility.
+
+---
+
 ## 🔗 Connect
 - 💼 GitHub: https://github.com/AndiswaMatai  
 - 🔗 LinkedIn: https://www.linkedin.com/in/andiswamatai/  
