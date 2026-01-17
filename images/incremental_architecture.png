@@ -1,1 +1,22 @@
+SQL Server
+   ↓
+Azure Data Factory (Watermark)
+   ↓
+ADLS Bronze
+   ↓
+Databricks MERGE
+   ↓
+ADLS Silver
+   ↓
+Synapse
+   ↓
+Power BI
 
+Export as:
+
+incremental_architecture.png
+
+
+Upload to:
+
+azure-incremental-pipeline/images/
