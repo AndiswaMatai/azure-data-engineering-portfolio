@@ -44,21 +44,17 @@ using **watermarking and idempotent logic**.
 
 ---
 
-## Incremental Pipeline Flow
-Source System
-↓
-ADF (Watermark Logic)
-↓
-ADLS (Incremental Loads)
-↓
-Databricks (Deduplication & Transforms)
-↓
-Synapse Analytics
-↓
-Power BI
+## Architecture Diagram
 
----
+![Incremental Pipeline Azure Architecture](../images/incremental_pipeline/architecture.png)
 
+**Description:**  
+- **Source System:** High-volume trip and event data  
+- **ADF:** Implements watermark-based incremental ingestion  
+- **ADLS:** Stores incremental raw and curated datasets  
+- **Databricks:** Deduplicates and transforms incremental data  
+- **Synapse Analytics:** Aggregates incremental datasets for reporting  
+- **Power BI:** Near real-time dashboards
 
 ---
 
