@@ -66,7 +66,7 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 *Curated datasets loaded into Synapse Analytics for reporting.*
 
 ### 4️⃣ Dashboards
-![Power BI Dashboard](images/powerbi_dashboard.png)  
+![Power BI Dashboard](images/powerbi_dashboard.png.png)  
 *Operational and executive dashboards built in Power BI.*
 
 ---
