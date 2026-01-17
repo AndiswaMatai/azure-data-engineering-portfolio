@@ -1,1 +1,58 @@
-# Azure Incremental Data Pipeline
+# 🔄 Azure Incremental & Streaming Data Pipeline
+
+Enterprise-grade incremental ingestion and near-real-time analytics solution
+built on Azure cloud services.
+
+---
+
+## 📌 Business Scenario
+Operational systems generate **high-volume transactional data** that cannot
+be fully reloaded daily due to cost, latency, and performance constraints.
+
+The business requires:
+- Near-real-time visibility into operations
+- Incremental updates instead of full refreshes
+- Scalable and fault-tolerant pipelines
+- Secure, governed data access
+
+---
+
+## 🎯 Solution Overview
+This project demonstrates an **incremental + streaming data pipeline** using Azure.
+
+### Key Capabilities
+- Incremental ingestion using watermark columns
+- Streaming ingestion for real-time events
+- Bronze → Silver → Gold data architecture
+- Late-arriving data handling
+- Data quality and governance controls
+
+---
+
+## 🛠️ Technology Stack
+- **Azure Data Factory** – incremental batch ingestion
+- **Azure Event Hubs** – streaming ingestion
+- **Azure Databricks (PySpark)** – transformations
+- **Azure Delta Lake** – ACID-compliant storage
+- **Azure Synapse Analytics** – analytics layer
+- **Power BI** – near-real-time dashboards
+- **AAD & Key Vault** – security and secrets
+
+---
+
+## 🔄 Architecture Flow
+
+1. Source systems emit transactional data
+2. ADF ingests **only new or changed records**
+3. Event Hubs streams real-time events
+4. Databricks applies transformations
+5. Delta Lake maintains Bronze / Silver / Gold tables
+6. Synapse exposes curated analytics
+7. Power BI consumes live datasets
+
+---
+
+## 🧱 Incremental Load Logic
+
+```text
+WHERE LastUpdated > @Watermark
