@@ -111,4 +111,22 @@ This project demonstrates:
 
 ![Power BI Dashboard](../images/guud_mobility/powerbi_dashboard.png)
 
+---
+
+## Role Alignment
+
+### Senior Data Engineer
+- Designed and implemented cloud-native Azure data pipelines
+- Optimized ETL performance and data models
+- Delivered analytics-ready datasets for BI consumption
+
+### Lead Data Engineer
+- Defined end-to-end data architecture and standards
+- Established governance, security, and automation practices
+- Collaborated with business stakeholders on KPI definition
+
+### Analytics / Data Engineering Manager
+- Translated business problems into scalable data solutions
+- Enabled executive decision-making through trusted dashboards
+- Drove measurable business outcomes through data initiatives
 
