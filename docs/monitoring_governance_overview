@@ -1,0 +1,64 @@
+Monitoring & Governance Overview
+Azure Data Engineering Portfolio –
+________________________________________
+1. Purpose
+This document describes the monitoring, governance, and security framework implemented in the Azure Data Engineering project. It ensures data integrity, auditability, and compliance, while enabling operational efficiency and executive reporting.
+________________________________________
+2. Scope
+Covers the end-to-end Azure-based solution:
+•	Data Ingestion – Azure Data Factory pipelines
+•	Data Storage – Azure Data Lake (ADLS)
+•	Data Transformation – Azure Databricks
+•	Data Warehouse – Azure Synapse Analytics
+•	Analytics & Reporting – Power BI dashboards
+•	Security & Compliance – Azure Active Directory (AAD) & Key Vault
+________________________________________
+3. Data Monitoring
+Area	Tools & Techniques	Purpose
+Pipeline Health	ADF Monitoring, Alerts	Ensure ETL jobs complete successfully; catch failures early
+Data Quality	Databricks Unit Tests, SQL Validation	Detect missing, duplicate, or malformed data
+Data Freshness	ADF Triggers, Timestamps	Ensure near real-time availability of datasets
+Performance	Synapse Query Monitoring, Spark Metrics	Optimize query & transformation performance
+________________________________________
+4. Governance & Compliance
+4.1 Access Control
+•	Azure Active Directory (AAD) manages role-based access
+•	Principle of least privilege applied to pipelines, data storage, and reports
+4.2 Data Lineage
+•	Track source-to-dashboard flow using:
+o	Databricks notebooks with version control
+o	Synapse table and view documentation
+o	Power BI lineage features
+4.3 Auditability
+•	Pipeline run logs retained in Azure Monitor & Log Analytics
+•	Transformation and load processes versioned via GitHub
+•	Historical snapshots stored in ADLS for audit purposes
+4.4 Security
+•	Sensitive data stored with encryption at rest (ADLS) and in transit
+•	Secrets managed in Azure Key Vault
+•	Periodic security reviews of ADF, Databricks, and Synapse permissions
+________________________________________
+5. Alerting & Notifications
+•	ADF alerts trigger on pipeline failures or threshold breaches
+•	Email & Teams notifications for operational teams
+•	Power BI refresh failures logged with automated alerting
+________________________________________
+6. Documentation & Knowledge Management
+•	All pipeline logic documented in notebooks and scripts
+•	Data models and tables defined with metadata, descriptions, and lineage
+•	Governance and monitoring procedures versioned in GitHub Docs folder
+________________________________________
+7. Benefits & Business Outcomes
+•	Reduced manual data quality checks
+•	Improved operational efficiency via automated alerts
+•	Increased audit readiness for regulators
+•	Near real-time dashboards for executive decision-making
+•	Ensured secure and compliant data pipelines
+________________________________________
+8. References
+•	Azure Data Factory Monitoring & Management
+•	Azure Databricks Data Quality & Testing
+•	Azure Synapse Analytics Performance & Monitoring
+•	Power BI Governance & Data Security Best Practices
+________________________________________
+
