@@ -1,15 +1,22 @@
-ETL: Load clean data into Synapse staging table
-CREATE TABLE StagingTrips (
+--  ETL Load Script for Azure Synapse
+-- Load clean dataset from CSV in Data Lake to Synapse staging table
+
+CREATE TABLE IF NOT EXISTS StagingTrips (
     DriverID VARCHAR(10),
     RouteID VARCHAR(10),
     TripDate DATE,
-    TripDurationMinutes INT,
-    FareCollected DECIMAL(10,2),
-    RevenuePerHour DECIMAL(10,2)
+    TripDurationMinutes FLOAT,
+    FareCollected FLOAT,
+    RevenuePerHour FLOAT
 );
 
 BULK INSERT StagingTrips
-FROM '../data/clean/sample_clean_table.csv'
+FROM 'adl://datalake/clean/sample_clean_table.csv'
 WITH (
     FIELDTERMINATOR = ',',
     ROWTERMINATOR = '\n',
+    FIRSTROW = 2
+);
+
+-- Verify load
+SELECT TOP 10 * FROM StagingTrips;
