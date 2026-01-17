@@ -98,6 +98,13 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 
 ---
 
+## ⚡ Azure Incremental Data Pipeline
+Watermark-based ingestion and near real-time analytics.
+
+➡️ [View Case Study](azure-incremental-pipeline/README.md)
+
+---
+
 ## 🔗 Connect
 - 💼 GitHub: https://github.com/AndiswaMatai  
 - 🔗 LinkedIn: https://www.linkedin.com/in/andiswamatai/  
