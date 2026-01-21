@@ -1,0 +1,9 @@
+-- Aggregate sales by region
+SELECT Region, SUM(Quantity*UnitPrice) AS TotalRevenue, COUNT(OrderID) AS TotalOrders
+FROM sales_orders
+GROUP BY Region;
+
+-- Join orders with customers
+SELECT o.OrderID, o.Product, o.Quantity, c.Name, c.Region
+FROM sales_orders o
+JOIN customers c ON o.CustomerID = c.CustomerID;
