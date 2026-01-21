@@ -1,0 +1,10 @@
+-- Revenue per Route
+SELECT RouteID, SUM(Revenue) AS TotalRevenue, SUM(Profit) AS TotalProfit
+FROM merged_trips
+GROUP BY RouteID
+ORDER BY TotalRevenue DESC;
+
+-- Fleet utilization hours
+SELECT VehicleID, SUM(DATEDIFF(minute, StartTime, EndTime)/60.0) AS UtilizationHours
+FROM merged_trips
+GROUP BY VehicleID;
