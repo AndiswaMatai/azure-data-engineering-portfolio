@@ -66,7 +66,7 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 *Curated datasets loaded into Synapse Analytics for reporting.*
 
 ### 4️⃣ Dashboards
-![Power BI Dashboard](images/powerbi_dashboard1.png)  
+![Power BI Dashboard](images/powerbi_dashboard.png)  
 *Operational and executive dashboards built in Power BI.*
 
 ---
@@ -107,7 +107,7 @@ Watermark-based ingestion and near real-time analytics.
 
 ## 📊 Near Real-Time Power BI Dashboard
 
-![Power BI Streaming Dashboard](../images/powerbi_dashboard.png)
+![Power BI Streaming Dashboard](../images/powerbi_dashboard_incremental.png)
 
 ### Key Metrics
 - Events per minute
