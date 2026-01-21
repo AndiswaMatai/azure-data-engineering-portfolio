@@ -1,0 +1,9 @@
+-- Select new trips since last processed date
+SELECT *
+FROM trip_data
+WHERE StartTime > '2026-01-01 00:00';
+
+-- Aggregate fare per vehicle
+SELECT VehicleID, SUM(Fare) AS TotalFare
+FROM trip_data
+GROUP BY VehicleID;
