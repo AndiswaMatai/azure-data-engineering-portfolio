@@ -101,14 +101,13 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 ## ⚡ Azure Incremental Data Pipeline
 Watermark-based ingestion and near real-time analytics.
 
-➡️ [View Case Study](azure-incremental-pipeline/README.md)
 ➡️ [View Case Study](projects/azure_incremental_data_pipeline_case_study.md)
 
 ---
 
 ## 📊 Near Real-Time Power BI Dashboard
 
-![Power BI Streaming Dashboard](../images/powerbi_dashboard_incremental.png)
+![Power BI Streaming Dashboard](/images/powerbi_dashboard_incremental.png)
 
 ### Key Metrics
 - Events per minute
