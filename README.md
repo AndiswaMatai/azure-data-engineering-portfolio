@@ -102,7 +102,7 @@ End-to-end **Azure-based data engineering solution** for ingesting, transforming
 Watermark-based ingestion and near real-time analytics.
 
 ➡️ [View Case Study](azure-incremental-pipeline/README.md)
-➡️ [View Case Study](azure_incremental_data_pipeline_case_study.md)
+➡️ [View Case Study](projects/azure_incremental_data_pipeline_case_study.md)
 
 ---
 
